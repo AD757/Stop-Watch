@@ -1,0 +1,43 @@
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: #000;
+  background-color: #bb86fc;
+  color: #000;
+  margin: 6px;
+}
+
+.start:hover {
+  cursor: pointer;
+  background: #03DAC6;
+}
+
+.stop:hover {
+  cursor: pointer;
+  background: #FF7597;
+  color: #fff;
+}
+
+.reset:hover {
+  cursor: pointer;
+  background: #CF6679;
+  color: #fff;
+}
+
+.split:hover {
+  cursor: pointer;
+  background: #F9AB25;
+  color: #fff;
+}

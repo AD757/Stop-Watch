@@ -1,0 +1,15 @@
+.formatting {
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 130px 500px 100px;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 30em) and (max-width: 80em) {
+.formatting { 
+  font-size: 25px;
+  display: grid;
+  grid-template-columns: 70px 250px 100px;
+  margin-bottom: 5px;
+  }
+}
